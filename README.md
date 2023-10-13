@@ -7,15 +7,19 @@
 
 ## Что выполнено в программе?
 Создан массив, элементы вводятся с клавиатуры. Находится значение суммы элементов.
+
 ![image](https://github.com/DaryaAutumn/CS-Architecture-HW5/assets/72216853/16d4ab90-310a-4e8b-970c-22e7ca4e91a9)
 
 При вводе неправильного размера массива появляется сообщение об ошибке, программа завершается:
+
 ![image](https://github.com/DaryaAutumn/CS-Architecture-HW5/assets/72216853/4bc917a0-4b29-4a6f-b8ce-dc528d19883f)
 
 Существует контроль переполнений:
+
 ![image](https://github.com/DaryaAutumn/CS-Architecture-HW5/assets/72216853/7f45b0a4-da6c-4b77-aad4-318f8bc114e8)
 
 Различные тестовые данные:
+
 ![image](https://github.com/DaryaAutumn/CS-Architecture-HW5/assets/72216853/fd4a3e6f-0a5a-45bf-8210-6e84c7cb6a9e)
 
 ## Подпрограммы и библиотека макросов
@@ -24,9 +28,11 @@
 [Проверки на корректность введенного значения размера массива](check_limits.asm)
 [Вычисления суммы](get_sum.asm)
 Каждый из файлов подключен к основной программе с помощью директивы .include:
+
 ![image](https://github.com/DaryaAutumn/CS-Architecture-HW5/assets/72216853/d6c4584a-7cf4-4e87-b655-7488ba6210dd)
 
 
 В файле [macrolib.s](macrolib.s) находится библиотека макросов для ввода и вывода чисел и строк. Она также подключена с помощью директивы .include к основной программе, и макросы оттуда используются в основной программе:
+
 ![image](https://github.com/DaryaAutumn/CS-Architecture-HW5/assets/72216853/08e5cd24-6cad-4053-80f2-af350fbc67dd)
 
